@@ -51,6 +51,6 @@ if (
     http_response_code(400); // Bad Request
     echo json_encode(["status" => "error", "message" => "Missing required fields"]);
 }
-
+//close the dasebase
 $conn->close();
 ?>
